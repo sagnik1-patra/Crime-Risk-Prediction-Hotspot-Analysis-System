@@ -1,0 +1,21 @@
+City (Col. 2),Total - Total Persons Arrested by age and Sex - (Col. 20),Predicted_Risk_Label
+Total Cities,687289,High Risk
+Chennai (Tamil Nadu),241746,High Risk
+Delhi City,106503,High Risk
+Ahmedabad (Gujarat),78058,High Risk
+Mumbai (Maharashtra),54188,High Risk
+Surat (Gujarat),42843,High Risk
+Kolkata (West Bengal),27347,Medium Risk
+Bengaluru (Karnataka),23060,Medium Risk
+Pune (Maharashtra),19546,Medium Risk
+Nagpur (Maharashtra),15211,Medium Risk
+Coimbatore (Tamil Nadu),14233,Medium Risk
+Jaipur (Rajasthan),11352,Medium Risk
+Indore (Madhya Pradesh),11022,Medium Risk
+Lucknow (Uttar Pradesh),9799,Low Risk
+Kanpur (Uttar Pradesh),8447,Low Risk
+Kochi (Kerala),8077,Low Risk
+Patna (Bihar),6541,Low Risk
+Hyderabad (Telangana),4855,Low Risk
+Ghaziabad (Uttar Pradesh),2345,Low Risk
+Kozhikode (Kerala),2116,Low Risk

@@ -1,0 +1,19 @@
+project_name: Crime Risk Prediction & Hotspot Analysis System
+algorithm: Artificial Immune System Feature Selection
+prefix: ais_
+dataset_path: C:\Users\NXTWAVE\Downloads\Crime Risk Prediction & Hotspot Analysis
+  System\NCRB_CII-2020_Table.No-19B.2.csv
+target_column: Total - Total Persons Arrested by age and Sex - (Col. 20)
+city_column: City (Col. 2)
+selected_features:
+- 30 Years & above - Below 45 Years - Male - (Col. 9)
+- 30 Years & above - Below 45 Years - Female - (Col. 10)
+- 60 Years & Above - Male - (Col. 15)
+total_features: 21
+selected_feature_count: 3
+models:
+- AIS Random Forest
+- AIS Gradient Boosting
+- AIS Deep Learning
+output_directory: C:\Users\NXTWAVE\Downloads\Crime Risk Prediction & Hotspot Analysis
+  System

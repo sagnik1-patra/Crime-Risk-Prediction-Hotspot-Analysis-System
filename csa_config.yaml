@@ -1,0 +1,22 @@
+project_name: Crime Risk Prediction & Hotspot Analysis System
+algorithm: Crow Search Algorithm Feature Selection
+prefix: csa_
+dataset_path: C:\Users\NXTWAVE\Downloads\Crime Risk Prediction & Hotspot Analysis
+  System\NCRB_CII-2020_Table.No-19B.2.csv
+target_column: Total - Total Persons Arrested by age and Sex - (Col. 20)
+city_column: City (Col. 2)
+selected_features:
+- Juveniles Apprehended - Girls - (Col. 4)
+- 30 Years & above - Below 45 Years - Female - (Col. 10)
+- 45 Years & above - Below 60 Years - Male - (Col. 12)
+- 60 Years & Above - Total - (Col. 17)
+- Male_Female_Ratio
+- Senior_60_Plus_Percentage
+total_features: 21
+selected_feature_count: 6
+models:
+- CSA Random Forest
+- CSA Gradient Boosting
+- CSA Deep Learning
+output_directory: C:\Users\NXTWAVE\Downloads\Crime Risk Prediction & Hotspot Analysis
+  System

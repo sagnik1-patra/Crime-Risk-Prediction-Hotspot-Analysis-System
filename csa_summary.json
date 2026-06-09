@@ -1,0 +1,56 @@
+{
+    "rows": 20,
+    "columns": 27,
+    "algorithm": "Crow Search Algorithm",
+    "best_csa_fitness": 0.9971428571428571,
+    "selected_features": [
+        "Juveniles Apprehended - Girls - (Col. 4)",
+        "30 Years & above - Below 45 Years - Female - (Col. 10)",
+        "45 Years & above - Below 60 Years - Male - (Col. 12)",
+        "60 Years & Above - Total - (Col. 17)",
+        "Male_Female_Ratio",
+        "Senior_60_Plus_Percentage"
+    ],
+    "selected_feature_count": 6,
+    "csa_random_forest_accuracy": 1.0,
+    "csa_gradient_boosting_accuracy": 0.8,
+    "csa_deep_learning_accuracy": 0.6000000238418579,
+    "classes": [
+        "High Risk",
+        "Low Risk",
+        "Medium Risk"
+    ],
+    "classification_report": {
+        "High Risk": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+        },
+        "Low Risk": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+        },
+        "Medium Risk": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+        }
+    }
+}

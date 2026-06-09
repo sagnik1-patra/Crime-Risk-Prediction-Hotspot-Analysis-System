@@ -1,0 +1,4 @@
+Model,Accuracy
+CSA Random Forest,1.0
+CSA Gradient Boosting,0.8
+CSA Deep Learning,0.6000000238418579

@@ -1,0 +1,4 @@
+Model,Accuracy
+Random Forest,0.8
+Gradient Boosting,0.6
+Deep Learning,0.4000000059604645

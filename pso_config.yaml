@@ -1,0 +1,23 @@
+project_name: Crime Risk Prediction & Hotspot Analysis System
+algorithm: Particle Swarm Optimization Feature Selection
+prefix: pso_
+dataset_path: C:\Users\NXTWAVE\Downloads\Crime Risk Prediction & Hotspot Analysis
+  System\NCRB_CII-2020_Table.No-19B.2.csv
+target_column: Total - Total Persons Arrested by age and Sex - (Col. 20)
+city_column: City (Col. 2)
+selected_features:
+- 18 Years & Above - Below 30 Years - Male - (Col. 6)
+- 18 Years & Above - Below 30 Years - Female - (Col. 7)
+- 30 Years & above - Below 45 Years - Male - (Col. 9)
+- 30 Years & above - Below 45 Years - Female - (Col. 10)
+- 45 Years & above - Below 60 Years - Female - (Col. 13)
+- 60 Years & Above - Female - (Col. 16)
+- 60 Years & Above - Total - (Col. 17)
+total_features: 21
+selected_feature_count: 7
+models:
+- PSO Random Forest
+- PSO Gradient Boosting
+- PSO Deep Learning
+output_directory: C:\Users\NXTWAVE\Downloads\Crime Risk Prediction & Hotspot Analysis
+  System

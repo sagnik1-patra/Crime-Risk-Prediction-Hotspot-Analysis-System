@@ -1,0 +1,33 @@
+project_name: Crime Risk Prediction & Hotspot Analysis System
+dataset_path: C:\Users\NXTWAVE\Downloads\Crime Risk Prediction & Hotspot Analysis
+  System\NCRB_CII-2020_Table.No-19B.2.csv
+target_column: Total - Total Persons Arrested by age and Sex - (Col. 20)
+city_column: City (Col. 2)
+features_used:
+- Juveniles Apprehended - Boys - (Col. 3)
+- Juveniles Apprehended - Girls - (Col. 4)
+- Juveniles Apprehended - Total - (Col. 5)
+- 18 Years & Above - Below 30 Years - Male - (Col. 6)
+- 18 Years & Above - Below 30 Years - Female - (Col. 7)
+- 18 Years & Above - Below 30 Years - Total - (Col. 8)
+- 30 Years & above - Below 45 Years - Male - (Col. 9)
+- 30 Years & above - Below 45 Years - Female - (Col. 10)
+- 30 Years & above - Below 45 Years - Total - (Col. 11)
+- 45 Years & above - Below 60 Years - Male - (Col. 12)
+- 45 Years & above - Below 60 Years - Female - (Col. 13)
+- 45 Years & above - Below 60 Years - Total - (Col. 14)
+- 60 Years & Above - Male - (Col. 15)
+- 60 Years & Above - Female - (Col. 16)
+- 60 Years & Above - Total - (Col. 17)
+- Total - Male - (Col. 18)
+- Total - Female - (Col. 19)
+- Male_Female_Ratio
+- Juvenile_Percentage
+- Youth_18_30_Percentage
+- Senior_60_Plus_Percentage
+models:
+- Random Forest
+- Gradient Boosting
+- Deep Learning
+output_directory: C:\Users\NXTWAVE\Downloads\Crime Risk Prediction & Hotspot Analysis
+  System

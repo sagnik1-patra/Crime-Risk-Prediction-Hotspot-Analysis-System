@@ -1,0 +1,4 @@
+Model,Accuracy
+AIS Random Forest,1.0
+AIS Gradient Boosting,0.6
+AIS Deep Learning,0.800000011920929

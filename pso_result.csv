@@ -1,0 +1,4 @@
+Model,Accuracy
+PSO Random Forest,1.0
+PSO Gradient Boosting,0.6
+PSO Deep Learning,0.6000000238418579
